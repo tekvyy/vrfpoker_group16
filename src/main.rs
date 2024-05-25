@@ -1,6 +1,6 @@
-use schnorrkel::{Keypair, signing_context};
-use sha2::{Sha256, Digest};
 use rand::Rng;
+use schnorrkel::{signing_context, Keypair};
+use sha2::{Digest, Sha256};
 use std::cmp::Ordering;
 
 fn main() {
